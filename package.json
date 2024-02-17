@@ -1,0 +1,23 @@
+{
+  "name": "html-skelly",
+  "version": "0.0.1",
+  "description": "Create a plain text representation of an HTML document's skeleton. Great for logging.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && node --test",
+    "lint": "biome check --apply ./"
+  },
+  "keywords": [
+    "html",
+    "log",
+    "report",
+    "pretty",
+    "print"
+  ],
+  "author": "tbeseda",
+  "license": "MIT",
+  "devDependencies": {
+    "@biomejs/biome": "^1.5.3"
+  }
+}
