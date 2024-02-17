@@ -4,6 +4,9 @@
   "description": "Create a plain text representation of an HTML document's skeleton. Great for logging.",
   "type": "module",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "npm run lint && node --test",
     "lint": "biome check --apply ./"
