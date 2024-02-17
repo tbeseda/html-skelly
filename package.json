@@ -1,6 +1,6 @@
 {
   "name": "html-skelly",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Create a plain text representation of an HTML document's skeleton. Great for logging.",
   "type": "module",
   "main": "index.js",
